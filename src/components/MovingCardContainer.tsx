@@ -1,38 +1,7 @@
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
-
+import testimonialsData from "@/data/dance_testimonials.json";
 const MovingCardContainer = () => {
-  const testimonials = [
-    {
-      quote:
-        "Enrolling in this music academy was the best decision for my growth as a musician. The guidance and expertise of the instructors have truly refined my technique.",
-      name: "Daniel Carter",
-      title: "Drum Student",
-    },
-    {
-      quote:
-        "This school fosters an environment where creativity thrives. I’ve gained invaluable skills, not only in playing the piano but also in composing my own pieces.",
-      name: "Sophia Martinez",
-      title: "Piano Student",
-    },
-    {
-      quote:
-        "I never imagined I could feel so confident in my singing. The personalized coaching here has helped me reach new heights as a vocalist.",
-      name: "Ryan Williams",
-      title: "Vocal Student",
-    },
-    {
-      quote:
-        "The mentorship I received has completely changed the way I approach the violin. My playing has improved dramatically, and I feel more connected to my music.",
-      name: "Olivia Bennett",
-      title: "Violin Student",
-    },
-    {
-      quote:
-        "The music production courses exceeded my expectations! I now have a solid foundation in mixing, mastering, and producing my own tracks.",
-      name: "Nathan Roberts",
-      title: "Music Production Student",
-    },
-  ];
+  const testimonials = testimonialsData.data;
 
   return (
     <div className="h-[40rem] w-full dark:bg-black dark:bg-dot-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">

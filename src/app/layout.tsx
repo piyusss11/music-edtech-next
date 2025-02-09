@@ -14,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Become a Muse",
-  description: "We teach music",
+  title: "Become a Dancer",
+  description: "We teach Dancing",
+  icons: {
+    icon: "/globe.svg",
+  }
 };
 
 export default function RootLayout({

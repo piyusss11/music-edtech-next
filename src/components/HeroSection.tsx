@@ -9,13 +9,13 @@ const HeroSection = () => {
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="pink" />
       <div className="p-4 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-2xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Unleash Your Musical Potential
+        Unleash Your Dance Potential
         </h1>
         <p className="mt-4 font-normal text-sm md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Embark on a transformative musical adventure with our expertly crafted
-          courses. Whether you&apos;re just starting out or fine-tuning your
-          craft, explore the rhythms, melodies, and techniques that will take
-          your skills to the next level.
+          Embark on a transformative dance journey with our expertly crafted
+          courses. Whether you&apos;re just stepping onto the dance floor or
+          refining your technique, explore the movements, rhythms, and styles
+          that will elevate your performance.
         </p>
         <div className="mt-10 ">
           <Link href="/courses">

@@ -1,0 +1,104 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Ballet Fundamentals",
+      "slug": "ballet-fundamentals",
+      "description": "Learn the basics of ballet with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "Sophia Martinez",
+      "isFeatured": true,
+      "image": "/courses/ballet.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Hip-Hop for Beginners",
+      "slug": "hip-hop-for-beginners",
+      "description": "Start your dance journey with foundational hip-hop moves taught by expert instructors.",
+      "price": 109.99,
+      "instructor": "Jason Carter",
+      "isFeatured": false,
+      "image": "/courses/hiphop.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Advanced Contemporary Techniques",
+      "slug": "advanced-contemporary-techniques",
+      "description": "Enhance your contemporary dance skills with advanced techniques for intermediate to advanced learners.",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "/courses/contemporary.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Salsa Mastery",
+      "slug": "salsa-mastery",
+      "description": "Master the art of salsa dancing with our comprehensive course covering all skill levels.",
+      "price": 129.99,
+      "instructor": "Carlos Rivera",
+      "isFeatured": false,
+      "image": "/courses/salsa.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Jazz Dance Improvisation",
+      "slug": "jazz-dance-improvisation",
+      "description": "Learn the art of jazz dance improvisation with this course designed for all levels.",
+      "price": 139.99,
+      "instructor": "Olivia Davis",
+      "isFeatured": false,
+      "image": "/courses/jazz-dance.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Choreography Fundamentals",
+      "slug": "choreography-fundamentals",
+      "description": "Dive into choreography with an introductory course on creating and structuring dance routines.",
+      "price": 149.99,
+      "instructor": "Alex Wilson",
+      "isFeatured": true,
+      "image": "/courses/choreography.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Freestyle Dance Essentials",
+      "slug": "freestyle-dance-essentials",
+      "description": "Learn the essentials of freestyle dance to express your creativity through movement.",
+      "price": 159.99,
+      "instructor": "Samantha Miller",
+      "isFeatured": false,
+      "image": "/courses/freestyle.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Breakdancing Techniques",
+      "slug": "breakdancing-techniques",
+      "description": "Master the art of breakdancing with moves for beginners to advanced dancers.",
+      "price": 169.99,
+      "instructor": "Luke Harris",
+      "isFeatured": true,
+      "image": "/courses/breaking.jpg"
+    },
+    {
+      "id": 9,
+      "title": "History of Dance",
+      "slug": "history-of-dance",
+      "description": "Explore the rich history of dance from its origins to modern styles.",
+      "price": 179.99,
+      "instructor": "Grace Lee",
+      "isFeatured": true,
+      "image": "/courses/dance-history.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Latin Dance Styles",
+      "slug": "latin-dance-styles",
+      "description": "Discover the techniques of Latin dance styles, including Salsa, Bachata, and Merengue.",
+      "price": 189.99,
+      "instructor": "Ethan Moore",
+      "isFeatured": true,
+      "image": "/courses/latin-dance.jpg"
+    }
+  ]
+}

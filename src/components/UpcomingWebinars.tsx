@@ -1,52 +1,10 @@
 import Link from "next/link";
 import { HoverEffect } from "./ui/card-hover-effect";
 import { Button } from "./ui/moving-border";
+import webinarsData from "@/data/dance_webinars.json";
 
 const UpcomingWebinars = () => {
-  const featuredWebinars = [
-    {
-      title: "Foundations of Music Theory",
-      description:
-        "Explore the core principles of music theory to strengthen your understanding and creativity.",
-      slug: "foundations-of-music-theory",
-      isFeatured: true,
-    },
-    {
-      title: "Songwriting Mastery",
-      description:
-        "Discover the secrets of crafting compelling songs with guidance from industry professionals.",
-      slug: "songwriting-mastery",
-      isFeatured: true,
-    },
-    {
-      title: "Elevate Your Instrument Skills",
-      description:
-        "Take your playing to the next level with expert-led techniques and practice strategies.",
-      slug: "elevate-your-instrument-skills",
-      isFeatured: true,
-    },
-    {
-      title: "Music Production for Beginners",
-      description:
-        "Kickstart your journey in music production with hands-on insights and essential tools.",
-      slug: "music-production-for-beginners",
-      isFeatured: true,
-    },
-    {
-      title: "Stage Presence & Live Performance",
-      description:
-        "Learn how to captivate your audience and refine your stage performance techniques.",
-      slug: "stage-presence-live-performance",
-      isFeatured: true,
-    },
-    {
-      title: "Music Marketing in the Digital Age",
-      description:
-        "Master the strategies to grow your audience and promote your music online effectively.",
-      slug: "music-marketing-digital-age",
-      isFeatured: true,
-    },
-  ];
+  const featuredWebinars = webinarsData.data;
   return (
     <div className="p-12 bg-gray-900/5 max-w-7xl mx-auto px-4 sm:px-6">
       <div className="text-center">

@@ -1,10 +1,10 @@
 import Link from "next/link";
-import coursesData from "../data/music_courses.json";
+import coursesData from "../data/dance_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/moving-border";
 import { SpotlightNew } from "./ui/spotlight-new";
-interface Course {
+export interface Course {
   id: number;
   title: string;
   slug: string;
@@ -22,7 +22,7 @@ const FeaturedCourses = () => {
 
   return (
     <div className="py-12 bg-gray-900/5 relative w-full overflow-hidden">
-      <SpotlightNew/>
+      <SpotlightNew />
       <div className="text-center">
         <h1 className="text-base text-pink-400 font-semibold tracking-wide uppercase">
           Featured Courses
@@ -42,10 +42,11 @@ const FeaturedCourses = () => {
                 <p className="text-sm mb-6   text-neutral-600 dark:text-neutral-400 flex-grow">
                   {course.description}
                 </p>
-                <Link className="border-b-[1px]" href={`/courses/${course.slug}`}>
-                 
-                    Learn More
-                 
+                <Link
+                  className="border-b-[1px]"
+                  href={`/courses/${course.slug}`}
+                >
+                  Learn More
                 </Link>
               </div>
             </BackgroundGradient>
@@ -53,15 +54,13 @@ const FeaturedCourses = () => {
         ))}
       </div>
       <div className="mt-20 text-center">
-        <Link
-          href={"/courses"}
-        >
-           <Button
-                    borderRadius="1.75rem"
-                    className="text-sm md:text-base bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                  >
-                    View All Courses
-                  </Button>
+        <Link href={"/courses"}>
+          <Button
+            borderRadius="1.75rem"
+            className="text-sm md:text-base bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+          >
+            View All Courses
+          </Button>
         </Link>
       </div>
     </div>

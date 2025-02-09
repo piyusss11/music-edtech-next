@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "title": "Foundations of Dance Technique",
+      "description": "Explore the core principles of dance to build a strong foundation in movement and expression.",
+      "slug": "foundations-of-dance-technique",
+      "isFeatured": true
+    },
+    {
+      "title": "Choreography Mastery",
+      "description": "Discover the secrets of crafting captivating dance routines with guidance from industry professionals.",
+      "slug": "choreography-mastery",
+      "isFeatured": true
+    },
+    {
+      "title": "Elevate Your Dance Skills",
+      "description": "Take your performance to the next level with expert-led techniques and training strategies.",
+      "slug": "elevate-your-dance-skills",
+      "isFeatured": true
+    },
+    {
+      "title": "Dance Improvisation for Beginners",
+      "description": "Kickstart your journey in dance improvisation with hands-on insights and essential movement tools.",
+      "slug": "dance-improvisation-for-beginners",
+      "isFeatured": true
+    },
+    {
+      "title": "Stage Presence & Performance Confidence",
+      "description": "Learn how to captivate your audience and refine your stage presence for unforgettable performances.",
+      "slug": "stage-presence-performance-confidence",
+      "isFeatured": true
+    },
+    {
+      "title": "Dance Marketing in the Digital Age",
+      "description": "Master the strategies to grow your audience and promote your dance career effectively online.",
+      "slug": "dance-marketing-digital-age",
+      "isFeatured": true
+    }
+  ]
+}

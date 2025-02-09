@@ -1,7 +1,9 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import MovingCardContainer from "@/components/MovingCardContainer";
 import StickySaScroll from "@/components/StickySaScroll";
+import Teachers from "@/components/Teachers";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
         <StickySaScroll/>
         <MovingCardContainer/>
         <UpcomingWebinars/>
+        <Teachers/>
+        <Footer/>
       </main>
     </>
   );
