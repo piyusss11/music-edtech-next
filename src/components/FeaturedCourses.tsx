@@ -3,6 +3,7 @@ import coursesData from "../data/music_courses.json";
 import { BackgroundGradient } from "./ui/background-gradient";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/moving-border";
+import { SpotlightNew } from "./ui/spotlight-new";
 interface Course {
   id: number;
   title: string;
@@ -20,7 +21,8 @@ const FeaturedCourses = () => {
   console.log(cn("text-red-500", "bg-blue-500")); // Should log "text-red-500 bg-blue-500"
 
   return (
-    <div className="py-12 bg-gray-900/5">
+    <div className="py-12 bg-gray-900/5 relative w-full overflow-hidden">
+      <SpotlightNew/>
       <div className="text-center">
         <h1 className="text-base text-pink-400 font-semibold tracking-wide uppercase">
           Featured Courses
