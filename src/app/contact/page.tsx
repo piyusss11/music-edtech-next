@@ -4,7 +4,7 @@ import { AuroraBackground } from "@/components/ui/aurora-background";
 import { motion } from "framer-motion";
 import { FormEvent, useState } from "react";
 
-export const Page = () => {
+export default function Page  () {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
@@ -62,4 +62,3 @@ export const Page = () => {
     </AuroraBackground>
   );
 };
-export default Page;
